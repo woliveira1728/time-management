@@ -84,3 +84,10 @@ li {
     padding: 5px;
     padding-left: 10px;
 }
+
+footer {
+    padding-top: 180px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
