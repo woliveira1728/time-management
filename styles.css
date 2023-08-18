@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Playfair Display', serif;
+    color: #ffff00;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./fundo.jpg);
+    flex-direction: column;
+}
+
+header {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #014601;
+}
+
+    h1 {
+        font-size: 40px;
+    }
+
+main {
+    margin-top: 100px;
+    width: 80%;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.master-ul {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: #014601;
+}
+
+.master-ul li {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 33.33%;
+        border: 1px solid #ffffff ;
+    }
+
+ul {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #ffffff;
+    width: 100%;
+    background-color: rgba(1, 70, 1, 0.500);
+}
+
+li {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 33.33%;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    padding-left: 10px;
+}
